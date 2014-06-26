@@ -33,7 +33,6 @@
           open-junk-file
           emacs-w3m
           auto-complete
-          ddskk
           go-mode
           go-eldoc
           scss-mode
