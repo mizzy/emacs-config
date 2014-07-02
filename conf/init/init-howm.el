@@ -1,4 +1,4 @@
-(setq howm-directory "~/Dropbox/howm")
+(setq howm-directory "~/howm")
 (global-set-key "\C-c,," 'howm-menu)
 
 (autoload 'howm-menu "howm-mode" "Hitori Otegaru Wiki Modoki" t)

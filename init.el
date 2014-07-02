@@ -18,6 +18,7 @@
                  "review.el"
                  "package.el"
                  "markdown.el"
+                 "puppet.el"
                  )))
   (progn
     (dolist (conf conf-list)
