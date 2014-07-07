@@ -218,23 +218,23 @@ Key bindings:
       "コメントのフェイス"
       :group 'review-mode)
     (defface review-mode-title-face
-      '((t (:bold t :foreground "darkgreen")))
+      '((t (:bold t :foreground "limegreen")))
       "タイトルのフェイス"
       :group 'review-mode)
     (defface review-mode-header1-face
-      '((t (:bold t :foreground "darkgreen")))
+      '((t (:bold t :foreground "limegreen")))
       "ヘッダーのフェイス"
       :group 'review-mode)
     (defface review-mode-header2-face
-      '((t (:bold t :foreground "darkgreen")))
+      '((t (:bold t :foreground "limegreen")))
       "ヘッダーのフェイス"
       :group 'review-mode)
     (defface review-mode-header3-face
-      '((t (:bold t :foreground "darkgreen")))
+      '((t (:bold t :foreground "limegreen")))
       "ヘッダーのフェイス"
       :group 'review-mode)
     (defface review-mode-header4-face
-      '((t (:bold t :foreground "darkgreen")))
+      '((t (:bold t :foreground "limegreen")))
       "ヘッダーのフェイス"
       :group 'review-mode)
     (defface review-mode-header5-face
@@ -242,15 +242,15 @@ Key bindings:
       "ヘッダーのフェイス"
       :group 'review-mode)
     (defface review-mode-underline-face
-      '((t (:underline t :foreground "DarkBlue")))
+      '((t (:underline t :foreground "aqua")))
       "アンダーラインのフェイス"
       :group 'review-mode)
     (defface review-mode-underlinebold-face
-      '((t (:bold t :underline t :foreground "DarkBlue")))
+      '((t (:bold t :underline t :foreground "aqua")))
       "アンダーラインボールドのフェイス"
       :group 'review-mode)
     (defface review-mode-bold-face
-      '((t (:bold t :foreground "Blue")))
+      '((t (:bold t :foreground "aqua")))
       "ボールドのフェイス"
       :group 'review-mode)
     (defface review-mode-italic-face
@@ -258,7 +258,7 @@ Key bindings:
       "イタリックのフェイス"
       :group 'review-mode)
     (defface review-mode-bracket-face
-      '((t (:bold t :foreground "DarkBlue")))
+      '((t (:bold t :foreground "aqua")))
       "<のフェイス"
       :group 'review-mode)
     (defface review-mode-nothide-face
