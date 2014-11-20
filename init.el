@@ -19,6 +19,7 @@
                  "package.el"
                  "markdown.el"
                  "puppet.el"
+                 "yaml.el"
                  )))
   (progn
     (dolist (conf conf-list)
