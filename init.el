@@ -59,3 +59,8 @@
 
 (exec-path-from-shell-initialize)
 
+
+;; from http://d.hatena.ne.jp/akm/20080605#1212644489
+(require 'ruby-mode)
+(defun ruby-mode-set-encoding () ())
+
