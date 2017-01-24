@@ -40,6 +40,9 @@
           lua-mode
           yasnippet
           howm
+          f
+          rust-mode
+          emacs-racer
           ))
 
 (if (locate-file "llvm-config" exec-path)

@@ -1,11 +1,14 @@
 ;; gocode
 (require 'go-autocomplete)
+(require 'auto-complete-config)
+
 (add-to-list 'ac-modes 'go-mode)
 
 ;; goflymake
 (require 'go-flymake)
 
-(setenv "GOPATH" (expand-file-name "~/dev/go-workspace"))
+;(setenv "GOPATH" (expand-file-name "~/"))
+;(setenv "GOROOT" "/usr/local/Cellar/go/1.4.1/libexec")
 
 ;; go-eldoc
 (require 'go-eldoc)
@@ -20,3 +23,9 @@
              (local-set-key (kbd "C-c C-r") 'go-remove-unused-imports)
              (local-set-key (kbd "C-c a") 'go-import-add)
              (local-set-key (kbd "C-c d") 'godoc)))
+
+(add-hook 'before-save-hook 'gofmt-before-save)
+
+(setq gofmt-command "goimports")
+(add-hook 'before-save-hook 'gofmt-before-save)
+

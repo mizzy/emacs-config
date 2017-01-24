@@ -1,6 +1,8 @@
 
 ;(setq debug-on-error t)
 
+(require 'cl)
+
 (let*
     ((user-emacs-directory
       (substring (or load-file-name "~/.emacs.d/init.el") 0 -7))
@@ -11,6 +13,7 @@
                  "cc-mode.el"
                  "clang-complete.el"
                  "go.el"
+                 "php.el"
                  "flymake.el"
                  "midnight.el"
                  "blosxom.el"
@@ -59,8 +62,16 @@
 
 (exec-path-from-shell-initialize)
 
-
 ;; from http://d.hatena.ne.jp/akm/20080605#1212644489
 (require 'ruby-mode)
 (defun ruby-mode-set-encoding () ())
+
+
+(exec-path-from-shell-copy-envs '("GOROOT" "GOPATH"))
+
+
+(add-hook 'makefile-mode-hook
+          (function
+           (lambda ()
+             (fset 'makefile-warn-suspicious-lines 'ignore))))
 
